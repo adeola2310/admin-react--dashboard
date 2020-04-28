@@ -1,3 +1,72 @@
-.dashboard{
+
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-column-gap: 15px;
+}
+
+.card__one{
+    background-color: #ffffff;
+    box-shadow:  0px 0px 8px rgba(189, 189, 189, 0.5);
+    height: fit-content;
+    border-radius: 8px;
+}
+.headers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+}
+.headers > p{
+    font-size: 14px;
+}
+
+.bottom{
+    padding: 5px 15px;
+}
+
+
+.sales{
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(189, 189, 189, 0.5);
+    width: 78vw;
+    height: fit-content;
+    margin-top: 35px;
+}
+
+.sales__head{
+    padding: 5px 15px;
+
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px auto;
+}
+
+th, td {
     text-align: center;
+    /*padding: 8px;*/
+}
+
+tr:nth-child(even){background-color: #FBFBFB}
+
+th {
+    background-color: #E3EFFF;
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .profiles{
+        display: flex;
+        justify-content: flex-end;
+    }
 }
