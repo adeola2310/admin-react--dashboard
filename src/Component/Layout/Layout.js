@@ -18,7 +18,7 @@ class Layout extends Component {
                 <div className="side-nav">
                     <ul className="side-nav__items">
                         <li className="list">
-                            <NavLink to={{pathname: '/dashboard'}}>Dashboard</NavLink>
+                            <img className="" src={require('../../images/dashboard.svg')}/><NavLink to={{pathname: '/dashboard'}}>Dashboard</NavLink>
                         </li>
                         <li className="list">
                            <NavLink to={{pathname: '/categories'}}>Categories</NavLink>

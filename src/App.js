@@ -3,7 +3,6 @@ import './App.css';
 import Login from './containers/Login/Login';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Dashboard from "./containers/Dashboard/Dashboard";
-import Layout from "./Component/Layout/Layout";
 import Categories from "./containers/Categories/Categories";
 
 function App() {
